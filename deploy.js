@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { abi, evm } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'dish shoe regret auto elbow cannon coyote panther beach acoustic leopard rapid',
-  'https://goerli.infura.io/v3/37db29dc688047d287c37fb86cdf0a26'
+  'Type your 12-digit private key',
+  'Write your own network you want to use'
 );
 
 const web3 = new Web3(provider);
